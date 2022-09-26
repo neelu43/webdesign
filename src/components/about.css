@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.main{
+    height: 100vh;
+    
+}
+.left{
+    width: 50vw;
+}
+
+img{
+    height: 102vh;
+    margin-left: 110px;
+
+}
+.right{
+    display: flex;
+    width: 50vw;
+    margin-right: 110px;
+}
+.main{
+    display: flex;
+}
+.oone,.ttwo,.three,.four,.five,.six{
+    height: 34vh;
+    width: 50vh;
+    text-align: center;
+    padding-top: 25%;
+   
+}
+.oone{
+    background-color: #00c4cc;
+}
+.four{
+    background-color: #ff738e;
+}
+.ttwo{
+    background-color: #a548ff;
+}
+.five{
+    background-color: #ffa53b;
+}
+.three{
+    background-color: #6422b8;
+}
+.six{
+    background-color: #ffd93b;
+}
