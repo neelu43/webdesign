@@ -17,13 +17,13 @@
 
 img{
     height: 102vh;
-    margin-left: 110px;
+    margin-left: 120px;
 
 }
 .right{
     display: flex;
     width: 50vw;
-    margin-right: 110px;
+    margin-right: 120px;
 }
 .main{
     display: flex;
