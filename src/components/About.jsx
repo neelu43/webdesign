@@ -1,6 +1,7 @@
 import React from 'react'
 import './about.css';
 import pic from '../assets/neel.PNG';
+import js from '../assets/js.pdf';
 const About = () => {
   return (
     <>
@@ -10,7 +11,8 @@ const About = () => {
         </div>
         <div className="right">
             <div className='one'>
-                <div className='oone'><h3>Download My Book</h3></div>
+            <a href={js} download><div className='oone'>
+<h3>Download My Book</h3></div></a>
                 <div className='ttwo'><h3>15 MoneySaving Ideas</h3></div>
                 <div className='three'><h3>Future Proofing Your Career</h3></div>
             </div>

@@ -1,40 +1,85 @@
 *{
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     font-size: 20px;
     font-weight: 500;
     color: white;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    
 }
 .main{
     height: 100vh;
-    
+   
+    position: relative;
 }
-.left{
-    width: 50vw;
+a{
+    text-decoration: none;
 }
 
 img{
-    height: 102vh;
+    height: 96%;
     margin-left: 140px;
+    margin-top: 10px;
+    border-radius: 10px;
+    overflow: none;
+    position: relative;
+    box-shadow: 0 5px 10px 0 rgb(61, 61, 71);
+}
 
+img:hover{
+    transform: scale(0.9);
 }
 .right{
     display: flex;
     width: 50vw;
     margin-right: 140px;
+    position: relative;
 }
 .main{
     display: flex;
 }
 .oone,.ttwo,.three,.four,.five,.six{
-    height: 34vh;
+    height: 30vh;
     width: 50vh;
     text-align: center;
     padding-top: 25%;
+    margin: 15px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px 0 rgb(70, 67, 67);
    
 }
+.oone:hover{
+    transform: scale(0.9);
+    border-radius: 5px
+;
+}
+.ttwo:hover{
+    transform: scale(0.9);
+    border-radius: 5px
+;
+}
+.three:hover{
+    transform: scale(0.9);
+    border-radius: 5px
+;
+}
+.four:hover{
+    transform: scale(0.9);
+    border-radius: 5px
+;
+}
+.five:hover{
+    transform: scale(0.9);
+    border-radius: 5px
+;
+}
+.six:hover{
+    transform: scale(0.9);
+    border-radius: 5px
+;
+}
+
 .oone{
     background-color: #00c4cc;
 }
